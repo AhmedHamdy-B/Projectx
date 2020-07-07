@@ -1,22 +1,20 @@
 <template>
   <v-container>
-       <v-toolbar flat>
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
+       <v-toolbar class="my-toolbar d-flex justify-left" flat>
+       <v-img class="header_icon" :src="require('@/assets/imgs/logo.png')" aspect-ratio="1.7" contain></v-img>   
 
-      <v-toolbar-title>Title</v-toolbar-title>
-
-      <v-spacer></v-spacer>
-
-      <NuxtLink class="headerItems" to="/categories">
-     Categories
+      <NuxtLink class="Home" to="/">
+     Home
     </NuxtLink>
-
-       <NuxtLink to="/events">
+       <NuxtLink class="Events" to="/events">
       Events
     </NuxtLink>
 
-      <NuxtLink to="/store">
+      <NuxtLink class="Store" to="/store">
       Store
+    </NuxtLink>
+          <NuxtLink class="Categories" to="/categories">
+     Categories
     </NuxtLink>
     </v-toolbar>
 
