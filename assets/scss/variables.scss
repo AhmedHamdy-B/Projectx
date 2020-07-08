@@ -3,7 +3,7 @@ $main-color: #fac810;
 
 //My Classes
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -18,20 +18,20 @@ $main-color: #fac810;
         padding: 0 1.2vw;
         position: relative;
         &::after {
-            content: '';
+            content: "";
             display: inline-block;
             position: absolute;
             left: 22%;
             bottom: 0;
             top: 100%;
-            background-color:lighten($main-color, 30%) ;
-            height: .2em;
+            background-color: lighten($main-color, 30%);
+            height: 0.2em;
             width: 40%;
         }
     }
     .Store {
         text-decoration: none;
-        padding: .5vh 1.2vw;
+        padding: 0.5vh 1.2vw;
         border: 2px solid lighten($main-color, 30%);
     }
     .Home {
@@ -44,4 +44,11 @@ $main-color: #fac810;
         text-decoration: none;
         padding: 0 1.2vw;
     }
+}
+.header_Logo {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    height: 10vh;
 }
