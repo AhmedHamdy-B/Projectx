@@ -2,23 +2,20 @@
   <v-app>
     <v-row>
       <v-col class="d-flex justify-center"  sm="8">
-        <app-header class="" />
+        <app-header  />
+        
       </v-col>
-
       <v-col sm="4" class="pa-0">
         <v-img class="header_Logo" :src="require('@/assets/imgs/pic1.jpg')" contain></v-img>
       </v-col>
     </v-row>
 
     <v-content>
-      <v-container>
+      <v-container class="noPM">
         <nuxt />
       </v-container>
     </v-content>
 
-    <v-footer :fixed="fixed" app>
-      <span>&copy; 2019</span>
-    </v-footer>
   </v-app>
 </template>
 

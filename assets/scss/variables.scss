@@ -1,6 +1,9 @@
 //My Colors
 $main-color: #fac810;
 
+//font sizes
+
+
 //My Classes
 
 * {
@@ -13,7 +16,7 @@ $main-color: #fac810;
     padding: 0 5vw;
 }
 .my-toolbar {
-    .Events {
+    .Home {
         text-decoration: none;
         padding: 0 1.2vw;
         position: relative;
@@ -34,7 +37,7 @@ $main-color: #fac810;
         padding: 0.5vh 1.2vw;
         border: 2px solid lighten($main-color, 30%);
     }
-    .Home {
+    .Events {
         color: black;
         text-decoration: none;
         padding: 0 1.2vw;
@@ -49,4 +52,18 @@ $main-color: #fac810;
     &img{
     height: 90vh;
 }
+}
+.EventImgs{
+    height: 20vh;
+    width: 20vw;
+}
+.EventPlus{
+    background-color: #f9fafc ;
+    padding: 0px!important;
+}
+.noPM{
+    padding:0px!important;
+    margin: 0px!important;
+    width: 100%;
+    max-width: none!important;
 }
