@@ -46,10 +46,7 @@ $main-color: #fac810;
     }
 }
 .header_Logo {
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -1;
-    height: 10vh;
-    
+    &img{
+    height: 90vh;
+}
 }

@@ -1,8 +1,14 @@
 <template>
   <v-app>
-    <v-img class="header_Logo" :src="require('@/assets/imgs/pic1.jpg')" contain></v-img>
+    <v-row>
+      <v-col class="d-flex justify-center"  sm="8">
+        <app-header class="" />
+      </v-col>
 
-    <app-header />
+      <v-col sm="4" class="pa-0">
+        <v-img class="header_Logo" :src="require('@/assets/imgs/pic1.jpg')" contain></v-img>
+      </v-col>
+    </v-row>
 
     <v-content>
       <v-container>
