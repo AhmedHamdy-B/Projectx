@@ -54,13 +54,48 @@ $main-color: #fac810;
 }
 }
 .EventImgs{
-    height: 20vh;
-    width: 20vw;
+    height: 15vh;
+    width: 15vw;
+    left: 0;
 }
 .EventPlus{
     background-color: #f9fafc ;
     padding: 0px!important;
+    .event-title{
+        font-size: 3vw;
+        margin-top: 1vh;
+        top: 0;
+        left: 0!important;
+    }
+    .desc{
+        font-size: 1vw;
+        letter-spacing: .1rem;
+        margin: 0;
+        padding: 0;
+    }
 }
+.trending--title{
+    font-size: 2vw;
+    font-weight: bold;
+    position: relative;
+    &::after {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        top: 100%;
+        background-color: ($main-color);
+        height: 0.2em;
+        width: 60%;
+    }
+}
+.trending--browse{
+    font-size: 1vw!important;
+}
+
+// Helpers
+
 .noPM{
     padding:0px!important;
     margin: 0px!important;

@@ -1,12 +1,12 @@
 <template>
   <v-app>
     <v-row>
-      <v-col class="d-flex justify-center"  sm="8">
+      <v-col class="d-flex justify-center"  sm="12" md="8">
         <app-header  />
         
       </v-col>
-      <v-col sm="4" class="pa-0">
-        <v-img class="header_Logo" :src="require('@/assets/imgs/pic1.jpg')" contain></v-img>
+      <v-col sm="4" class="pa-0 hidden-sm-and-down">
+        <v-img class="header_Logo " :src="require('@/assets/imgs/pic1.jpg')" contain></v-img>
       </v-col>
     </v-row>
 
