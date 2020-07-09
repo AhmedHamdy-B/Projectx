@@ -3,7 +3,6 @@ $main-color: #fac810;
 
 //font sizes
 
-
 //My Classes
 
 * {
@@ -49,32 +48,34 @@ $main-color: #fac810;
     }
 }
 .header_Logo {
-    &img{
-    height: 90vh;
+    &img {
+        height: 90vh;
+    }
+
+    //Home Page
 }
-}
-.EventImgs{
+.EventImgs {
     height: 15vh;
     width: 15vw;
     left: 0;
 }
-.EventPlus{
-    background-color: #f9fafc ;
-    padding: 0px!important;
-    .event-title{
+.EventPlus {
+    background-color: #f9fafc;
+    padding: 0px !important;
+    .event-title {
         font-size: 3vw;
         margin-top: 1vh;
         top: 0;
-        left: 0!important;
+        left: 0 !important;
     }
-    .desc{
+    .desc {
         font-size: 1vw;
-        letter-spacing: .1rem;
+        letter-spacing: 0.1rem;
         margin: 0;
         padding: 0;
     }
 }
-.trending--title{
+.trending--title {
     font-size: 2vw;
     font-weight: bold;
     position: relative;
@@ -90,15 +91,34 @@ $main-color: #fac810;
         width: 60%;
     }
 }
-.trending--browse{
-    font-size: 1vw!important;
+.trending--browse {
+    font-size: 1vw !important;
+}
+.event-card {
+    width: 20vw;
+    position: relative;
+    .social {
+        font-size: 0.8vw !important;
+        position: absolute;
+        display: inline-block !important;
+        width: 5vw;
+        height: 4vh;
+        padding: 0 10px;
+        right: 1vw !important;
+        top: 1.5vh !important;
+        border-radius: 10%;
+        background-color: #4a90e2 !important;
+    }
+    .col-sm-12{
+        width: 100%;
+    }
 }
 
 // Helpers
 
-.noPM{
-    padding:0px!important;
-    margin: 0px!important;
+.noPM {
+    padding: 0px !important;
+    margin: 0px !important;
     width: 100%;
-    max-width: none!important;
+    max-width: none !important;
 }
