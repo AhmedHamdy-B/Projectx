@@ -18,9 +18,9 @@
         </v-col>
         
         <v-col cols="4" class="d-flex  justify-end align-top">
-            <div depressed small  class="d-flex flex-column justify-center align-center date__button mr-5">
-              <span class="d-block mt-2 headline "> 25</span>
-              <span class="d-block mb-2 font-weight-light ">June</span>
+            <div   class="px-5 py-8 d-flex flex-column justify-center align-center date__button mr-5">
+              <span class="d-block mt-2 p-0 headline "> 25</span>
+              <span class="d-block mb-2 p-0 font-weight-light ">June</span>
             </div>
          </v-col>
       </v-row>
