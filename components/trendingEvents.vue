@@ -5,7 +5,7 @@
           <v-col class="d-flex  justify-center align-center" sm="6" cols="6"><v-btn class="trending--browse" outlined color="primary">Browse All</v-btn></v-col>
       </v-row>
       <v-row>
-        <v-col  lg="3"  md="6" xs="12" v-for="n in 10" :key="n.index">
+        <v-col cols="12"  md="6" lg="3"  v-for="n in 20" :key="n.index">
       <EventCard/>
 
         </v-col>

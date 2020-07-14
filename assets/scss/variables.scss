@@ -1,23 +1,29 @@
 //My Colors
 $main-color: #fac810;
 
-//font sizes
-
+//font sizes and colors
+.text__grey{
+    color: #848484!important;
+}
 //My Classes
 
+html{
+    font-size: 10px;
+}
 * {
     margin: 0;
     padding: 0;
 }
 .header_icon {
-    height: 5vh;
-    width: 5vw;
-    padding: 0 5vw;
+    height: 2.5rem;
+    width: 5rem;
+    padding: 0 1rem;
 }
 .my-toolbar {
     .Home {
+        font-size: 1rem;
         text-decoration: none;
-        padding: 0 1.2vw;
+        padding: 0 .8rem;
         position: relative;
         &::after {
             content: "";
@@ -33,7 +39,7 @@ $main-color: #fac810;
     }
     .Store {
         text-decoration: none;
-        padding: 0.5vh 1.2vw;
+        padding: 0.3rem 1.2rem;
         border: 2px solid lighten($main-color, 30%);
     }
     .Events {
@@ -55,28 +61,27 @@ $main-color: #fac810;
     //Home Page
 }
 .EventImgs {
-    height: 15vh;
-    width: 15vw;
+    height: 8rem;
+    width: 8rem;
     left: 0;
 }
 .EventPlus {
     background-color: #f9fafc;
-    padding: 0px !important;
+    padding: 0 !important;
     .event-title {
-        font-size: 3vw;
-        margin-top: 1vh;
+        font-size: 2rem!important;
+        margin-top: .8rem;
         top: 0;
         left: 0 !important;
     }
     .desc {
-        font-size: 1vw;
-        letter-spacing: 0.1rem;
+        font-size: 1.2rem!important;
         margin: 0;
         padding: 0;
     }
 }
 .trending--title {
-    font-size: 2vw;
+    font-size: 2rem;
     font-weight: bold;
     position: relative;
     &::after {
@@ -92,26 +97,39 @@ $main-color: #fac810;
     }
 }
 .trending--browse {
-    font-size: 1vw !important;
+    font-size: 1rem !important;
 }
 .event-card {
-    width: 20vw;
+    border: none!important;
+    outline: none!important;
+    box-shadow: 0 0 20px 0 rgba(76, 147, 230, 0.1)!important;
+    width: 20rem;
     position: relative;
     .social {
-        font-size: 0.8vw !important;
+        font-size: 0.8rem !important;
         position: absolute;
         display: inline-block !important;
-        width: 5vw;
-        height: 4vh;
-        padding: 0 10px;
-        right: 1vw !important;
-        top: 1.5vh !important;
+        width: 5rem;
+        height: 2rem;
+        // padding: 0 10rem!important;
+        right: 1rem !important;
+        top: 1.5rem !important;
         border-radius: 10%;
         background-color: #4a90e2 !important;
     }
     .col-sm-12{
         width: 100%;
     }
+    .date__button{
+        border-radius: 13%;
+        display: flex;
+        flex-direction: column!important;
+        height: 3.5rem!important;
+        width: 3.5rem!important;
+        background-color: #fac810!important;
+        color: white!important;
+    }
+
 }
 
 // Helpers
